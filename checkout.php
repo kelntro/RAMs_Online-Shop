@@ -142,7 +142,7 @@ include "header.php";
 						</div>
 						<div class="col-50">
 							<label for="zip">Zip</label>
-							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?$" required>
+							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{4,5}(?:-[0-9]{4})?$" required>
 						</div>
 						</div>
 					</div>
