@@ -334,6 +334,7 @@ CREATE TABLE IF NOT EXISTS `user_info` (
 --
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
+(30, 'Admin', 'Admin', 'admin@gmail.com', 'admin123', '09914402929', 'Davao', 'Mintal'),
 (12, 'Rey', 'Helorintino', 'rey666@gmail.com', 'rey123', '8972198852', '123456789', 'sdcjns,djc'),
 (27, 'lorgil', 'lubiano', 'lorgil@gmail.com', 'nana123', '0991440292', 'Davao city', 'Obrero'),
 (28, 'Alejane', 'Pelandas', 'Ale@gmail.com', 'jane123', '0923432324', 'Davao', 'Obrero'),

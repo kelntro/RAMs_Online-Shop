@@ -33,7 +33,9 @@ Welcome to RAMs Online Shop! This is your go-to destination for seamless online 
 
 ## Notes
 
-If you encounter difficulties navigating to other categories from `index.php`, simply click on the 'Shop' menu for seamless transitions.
+- If you encounter difficulties navigating to other categories from `index.php`, simply click on the 'Shop' menu for seamless transitions.
+
+- Make sure to logout when you are logging in as admin
 
 ## Support
 
