@@ -28,8 +28,17 @@ Welcome to RAMs Online Shop! This is your go-to destination for seamless online 
 - **Password**: admin123
 
 ### Users
-- **Email**: mike@gmail.com
-- **Password**: Mike050120
+- **Email**: Mike@gmail.com
+- **Password**: Mike123
+
+- **Email**: rey@gmail.com
+- **Password**: rey123
+
+- **Email**: lorgil@gmail.com
+- **Password**: nana123
+
+- **Email**: Ale@gmail.com
+- **Password**: jane123
 
 ## Notes
 
