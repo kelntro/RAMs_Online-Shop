@@ -8,10 +8,11 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
     $password = $_POST["password"];
     
     // Check if the credentials are admin/admin123
-    if ($email === "admin@123" && $password === "admin123") {
+    if ($email === "admin@gmail.com" && $password === "admin123") {
         $_SESSION["uid"] = "admin";
         $_SESSION["name"] = "Administrator";
-        header('Location: admin/index.php'); // Redirect to the admin page
+        echo "login_success";
+        echo "<script> location.href='admin/index.php'; </script>";
         exit();
     }
 

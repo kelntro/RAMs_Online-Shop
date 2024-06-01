@@ -155,7 +155,7 @@ include "header.php";
 						</div>
 						
 						
-						<label for="cname">Name on Card</label>
+						<label for="cname">Card Name</label>
 						<input type="text" id="cname" name="cardname" class="form-control" pattern="^[a-zA-Z ]+$" required>
 						
 						<div class="form-group" id="card-number-field">
@@ -167,7 +167,7 @@ include "header.php";
 						
 						<div class="col-50">
 							<div class="form-group CVV">
-								<label for="cvv">CVV</label>
+								<label for="cvv">Card Verification Value</label>
 								<input type="text" class="form-control" name="cvv" id="cvv" required>
 						</div>
 						</div>
