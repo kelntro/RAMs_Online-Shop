@@ -187,6 +187,3 @@ include "topheader.php";
 
   </div>
 </div>
-<?php
-include "footer.php";
-?>

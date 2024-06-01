@@ -144,7 +144,6 @@ session_start();
 			<div class="container">
 
 				<ul class="header-links pull-right">
-					<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 					<li><?php
 						include "db.php";
 						if (isset($_SESSION["uid"])) {
@@ -193,7 +192,7 @@ session_start();
 					<div class="col-md-3">
 						<div class="header-logo">
 							<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif"><a style="color:red">RAM_S Ecommerce</a>
+								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif"><a style="color:red">EFZ  Online Shop</a>
 								</font>
 
 							</a>
@@ -207,9 +206,9 @@ session_start();
 							<form>
 								<select class="input-select">
 									<option value="0">All Categories</option>
-									<option value="1">Men</option>
-									<option value="1">Women </option>
-									<option value="1">Furniture </option>
+									<option value="1">GPUs</option>
+									<option value="1">Processors </option>
+									<option value="1">Motherboards </option>
 
 								</select>
 								<input class="input" id="search" type="text" placeholder="Search here">
@@ -238,7 +237,7 @@ session_start();
 									</div>
 
 									<div class="cart-btns">
-										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> edit cart</a>
+										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> My cart</a>
 
 									</div>
 								</div>
@@ -272,11 +271,11 @@ session_start();
 		</div>
 		<!-- responsive-nav -->
 
-		<!-- /container -->
+		<!-- /container
 	</nav>
 
 
-	<!-- NAVIGATION -->
+	NAVIGATION -->
 
 	<div class="modal fade" id="Modal_login" role="dialog">
 		<div class="modal-dialog">

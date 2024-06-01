@@ -6,12 +6,12 @@ error_reporting(0);
 if (isset($_GET['action']) && $_GET['action'] != "" && $_GET['action'] == 'delete') {
   $order_id = $_GET['order_id'];
 
-  /*this is delet query*/
-  mysqli_query($con, "delete from orders where order_id='$order_id'") or die("delete query is incorrect...");
+  // Delete query
+  mysqli_query($con, "DELETE FROM orders WHERE order_id='$order_id'") or die("Delete query is incorrect...");
 }
 
-///pagination
-$page = $_GET['page'];
+// Pagination
+$page = isset($_GET['page']) ? $_GET['page'] : 1;
 
 if ($page == "" || $page == "1") {
   $page1 = 0;
@@ -36,43 +36,38 @@ include "topheader.php";
             <table class="table table-hover tablesorter " id="">
               <thead class=" text-primary">
                 <tr>
-                  <th>Customer Name</th>
-                  <th>Products</th>
-                  <th>Contact | Email</th>
-                  <th>Address</th>
-                  <th>Details</th>
-                  <th>Shipping</th>
-                  <th>Time</th>
+                  <th>Order ID</th>
+                  <th>User ID</th>
+                  <th>Product ID</th>
+                  <th>Quantity</th>
+                  <th>Transaction ID</th>
+                  <th>Payment Status</th>
+                  <th>Action</th>
                 </tr>
               </thead>
               <tbody>
                 <?php
-                $result = mysqli_query($con, "select order_id, product_title, first_name, mobile, email, address1, address2, product_price,address2, qty from orders,products,user_info where orders.product_id=products.product_id and user_info.user_id=orders.user_id Limit $page1,10") or die("query 1 incorrect.....");
+                $result = mysqli_query($con, "SELECT * FROM orders LIMIT $page1,10") or die("Query 1 incorrect.....");
 
-                while (list($order_id, $p_names, $cus_name, $contact_no, $email, $address, $country, $details, $zip_code, $time, $quantity) = mysqli_fetch_array($result)) {
-                  echo "<tr><td>$cus_name</td><td>$p_names</td><td>$email<br>$contact_no</td><td>$address<br>ZIP: $zip_code<br>$country</td><td>$details</td><td>$quantity</td><td>$time</td>
-
-                        <td>
-                        <a class=' btn btn-danger' href='orders.php?order_id=$order_id&action=delete'>Delete</a>
-                        </td></tr>";
+                while ($row = mysqli_fetch_array($result)) {
+                  echo "<tr>
+                          <td>{$row['order_id']}</td>
+                          <td>{$row['user_id']}</td>
+                          <td>{$row['product_id']}</td>
+                          <td>{$row['qty']}</td>
+                          <td>{$row['trx_id']}</td>
+                          <td>{$row['p_status']}</td>
+                          <td>
+                            <a class='btn btn-danger' href='orders.php?order_id={$row['order_id']}&action=delete'>Complete</a>
+                          </td>
+                        </tr>";
                 }
                 ?>
               </tbody>
             </table>
-
-            <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
-              <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
-            </div>
-            <div class="ps__rail-y" style="top: 0px; right: 0px;">
-              <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </div>
-<?php
-include "footer.php";
-?>

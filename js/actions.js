@@ -74,7 +74,7 @@ $(document).ready(function () {
   /*	when page is load successfully then there is a list of categories when user click on category we will get category id and 
 		according to id we will show products
 	*/
-  $("body").delegate(".category", "click", function (event) {
+  $('body').on('click', '.category', function(event){
     $("#get_product").html("<h3>Loading...</h3>");
     event.preventDefault();
     var cid = $(this).attr("cid");
@@ -91,11 +91,12 @@ $(document).ready(function () {
       },
     });
   });
-  $("body").delegate(".categoryhome", "click", function (event) {
+  $('body').on('click', '.categoryhome', function(event) {
+    console.log("Category clicked");
     $("#get_product").html("<h3>Loading...</h3>");
     event.preventDefault();
     var cid = $(this).attr("cid");
-
+  
     $.ajax({
       url: "homeaction.php",
       method: "POST",
@@ -108,6 +109,7 @@ $(document).ready(function () {
       },
     });
   });
+  
 
   /*	when page is load successfully then there is a list of brands when user click on brand we will get brand id and 
 		according to brand id we will show products

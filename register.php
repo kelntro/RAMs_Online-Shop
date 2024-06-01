@@ -31,7 +31,7 @@ if (isset($_POST["f_name"])) {
 			echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $f_name is not valid..!</b>
+				<b>this $f_name is not valid</b>
 			</div>
 		";
 			exit();
@@ -40,7 +40,7 @@ if (isset($_POST["f_name"])) {
 			echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $l_name is not valid..!</b>
+				<b>this $l_name is not valid</b>
 			</div>
 		";
 			exit();
@@ -49,7 +49,7 @@ if (isset($_POST["f_name"])) {
 			echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>this $email is not valid..!</b>
+				<b>this $email is not valid</b>
 			</div>
 		";
 			exit();
@@ -89,11 +89,11 @@ if (isset($_POST["f_name"])) {
 		";
 			exit();
 		}
-		if (!(strlen($mobile) == 10)) {
+		if (!(strlen($mobile) == 11)) {
 			echo "
 			<div class='alert alert-warning'>
 				<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-				<b>Mobile number must be 10 digit</b>
+				<b>Mobile number must be 11 digit</b>
 			</div>
 		";
 			exit();

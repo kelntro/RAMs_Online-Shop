@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -6243,10 +6243,12 @@ a.thumbnail:hover {
 }
 
 .alert {
+
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px
+    
 }
 
 .alert h4 {
@@ -7248,8 +7250,24 @@ button.close {
 }
 
 .modal-open {
-    overflow: hidden
+    overflow: hidden;
 }
+
+.modal-open .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+.modal-open .modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+
 
 .modal {
     position: fixed;
@@ -7340,6 +7358,7 @@ button.close {
 }
 
 .modal-body {
+    overflow-y: auto;
     position: relative;
     padding: 15px
 }

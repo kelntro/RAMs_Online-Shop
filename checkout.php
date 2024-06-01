@@ -137,10 +137,6 @@ include "header.php";
 
 						<div class="row">
 						<div class="col-50">
-							<label for="state">State</label>
-							<input type="text" id="state" name="state" class="form-control" pattern="^[a-zA-Z ]+$" required>
-						</div>
-						<div class="col-50">
 							<label for="zip">Zip</label>
 							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{4,5}(?:-[0-9]{4})?$" required>
 						</div>
@@ -166,9 +162,6 @@ include "header.php";
                         <label for="cardNumber">Card Number</label>
                         <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
                     </div>
-						<label for="expdate">Exp Date</label>
-						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})$" placeholder="12/22"required>
-						
 
 						<div class="row">
 						

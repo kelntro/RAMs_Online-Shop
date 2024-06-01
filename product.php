@@ -136,10 +136,10 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">$' . $row['product_price'] . '<del class="product-old-price">$990.00</del></h3>
+								<h3 class="product-price">$' . $row['product_price'] . '<del class="product-old-price">$5990.00</del></h3>
 								<span class="product-available">In Stock</span>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Upgrade your daily routine with this essential, combining style and practicality. Crafted with high-quality materials, it offers durability and long-lasting performance. Perfect for work, leisure, or travel, it keeps you organized and efficient. Experience the difference and elevate your everyday life with this versatile, elegant addition.</p>
 
 							<div class="product-options">
 								<label>
@@ -224,7 +224,7 @@ include "header.php";
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p>Enhance your everyday life with this versatile and stylish essential. Made from high-quality materials, it ensures durability and reliable performance. Perfect for any occasion, it seamlessly fits into your lifestyle, keeping you organized and efficient. Choose this elegant addition and experience a blend of functionality and sophistication. Its designed to meet your needs with ease and convenience. Enjoy the perfect balance of form and function. Make this indispensable item a part of your daily routine today.</p>
 										</div>
 									</div>
 								</div>
@@ -234,7 +234,7 @@ include "header.php";
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p>Introducing our latest innovation, a versatile and stylish essential designed to elevate your everyday life. Crafted with precision and attention to detail, this product offers unmatched convenience and reliability. Whether youre at work, leisure, or on-the-go, it seamlessly integrates into your lifestyle, keeping you organized and efficient. Upgrade your daily routine with this exceptional product and experience the perfect blend of style and functionality.</p>
 										</div>
 									</div>
 								</div>
@@ -333,7 +333,7 @@ include "header.php";
 												<ul class="reviews">
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
+															<h5 class="name">Rey</h5>
 															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
@@ -344,12 +344,12 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>Absolutely love this product! Its sleek, stylish, and incredibly practical. The quality is top-notch, and it has made my daily routine so much more organized. I highly recommend it to anyone looking for a stylish and functional accessory.</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
+															<h5 class="name">Lorgil</h5>
 															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
@@ -360,12 +360,12 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>I cant say enough good things about this product. The design is so elegant and the quality is exceptional. It has exceeded my expectations in every way possible. Ive been using it for a while now and it still looks brand new. Definitely worth every penny!</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
+															<h5 class="name">Alejane</h5>
 															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
@@ -376,7 +376,7 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>I am amazed by how much this product has improved my daily life. Its so well-made and functional, I cant imagine going back to my old routine without it. The design is modern and sleek, and its incredibly durable. I would highly recommend this to anyone looking to upgrade their everyday essentials.</p>
 														</div>
 													</li>
 												</ul>
@@ -479,7 +479,7 @@ include "header.php";
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$5999.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>

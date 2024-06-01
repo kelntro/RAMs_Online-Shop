@@ -26,7 +26,7 @@
   -->
       <div class="logo">
         <a href="" class="simple-text logo-normal">
-          Niraj Dey
+          EFZ
         </a>
       </div>
       <div class="sidebar-wrapper ps-container ps-theme-default" data-ps-id="3a8db1f4-24d8-4dbf-85c9-4f5215c1b29a">
@@ -70,7 +70,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="index.php">
+            <a class="nav-link" href="logout.php">
               <i class="material-icons">logout</i>
               <p>Logout</p>
             </a>

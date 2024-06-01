@@ -9,25 +9,25 @@
 			<div class="carousel-inner">
 
 				<div class="item active">
-					<img src="img/banner3.jpg" alt="Los Angeles" style="width:100%;">
+					<img src="img/banner3.png" alt="Los Angeles" style="width:100%;">
 
 				</div>
 
 				<div class="item">
-					<img src="img/banner2.jpg" style="width:100%;">
+					<img src="img/banner2.png" style="width:100%;">
 
 				</div>
 
 				<div class="item">
-					<img src="img/banner4.jpg" alt="New York" style="width:100%;">
+					<img src="img/banner4.png" alt="New York" style="width:100%;">
 
 				</div>
 				<div class="item">
-					<img src="img/banner1.jpg" alt="New York" style="width:100%;">
+					<img src="img/banner1.png" alt="New York" style="width:100%;">
 
 				</div>
 				<div class="item">
-					<img src="img/banner3.jpg" alt="New York" style="width:100%;">
+					<img src="img/banner3.png" alt="New York" style="width:100%;">
 
 				</div>
 
@@ -283,10 +283,10 @@
 						<h3 class="title">Top selling</h3>
 						<div class="section-nav">
 							<ul class="section-tab-nav tab-nav">
-								<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
-								<li><a data-toggle="tab" href="#tab2">Shirts</a></li>
-								<li><a data-toggle="tab" href="#tab2">T-Shirts</a></li>
-								<li><a data-toggle="tab" href="#tab2">Pants</a></li>
+								<li class="active"><a data-toggle="tab" href="#tab2">GPUs</a></li>
+								<li><a data-toggle="tab" href="#tab2">Motherboards</a></li>
+								<li><a data-toggle="tab" href="#tab2">Processors</a></li>
+								<li><a data-toggle="tab" href="#tab2">Storage</a></li>
 							</ul>
 						</div>
 					</div>

@@ -10,8 +10,8 @@
 						<h3 class="footer-title">About Us</h3>
 
 						<ul class="footer-links">
-							<li><a href="#"><i class="fa fa-map-marker"></i>3rd Floor, No. 38/4, Outer Ring Rd, adjacent to Dell EMC2, Doddanekundi, Bengaluru, Karnataka 560048</a></li>
-							<li><a href="#"><i class="fa fa-phone"></i>Contact Us-08040423754</a></li>
+							<li><a href="#"><i class="fa fa-map-marker"></i>EFZ BUILDING, INIGO ST, BRGY. 18-B, OBRERO DAVAO CITY</a></li>
+							<li><a href="#"><i class="fa fa-phone"></i>Contact Us-09436110527</a></li>
 							<li><a href="#"><i class="fa fa-envelope-o"></i>Drop a query</a></li>
 						</ul>
 					</div>
@@ -38,10 +38,10 @@
 						<h3 class="footer-title">Categories</h3>
 						<ul class="footer-links">
 							<li><a href="#">Mobiles</a></li>
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Women</a></li>
-							<li><a href="#">Kids</a></li>
-							<li><a href="#">Accessories</a></li>
+							<li><a href="#">Laptop</a></li>
+							<li><a href="#">Desktop</a></li>
+							<li><a href="#">Processors</a></li>
+							<li><a href="#">GPUs</a></li>
 						</ul>
 					</div>
 				</div>

@@ -37,7 +37,7 @@
                     <input class="input form-control input-borders" type="password" name="repassword" id="repassword" placeholder="confirm password">
                 </div>
                 <div class="form-group">
-                    <input class="input form-control input-borders" type="text" name="mobile" id="mobile" placeholder="mobile">
+                    <input class="input form-control input-borders" type="text" name="mobile" id="mobile" placeholder="mobile number">
                 </div>
                 <div class="form-group">
                     <input class="input form-control input-borders" type="text" name="address1" id="address1" placeholder="Address">
@@ -50,10 +50,9 @@
                 <div lass="form-group">
                     <input class="primary-btn btn-block" value="Sign Up" type="submit" name="signup_button">
                 </div>
-                <div class="text-pad">
+                <!-- <div class="text-pad">
                     <a href="" data-toggle="modal" data-target="#Modal_login">Already have an Account ? then login</a>
-
-                </div>
+                </div>  -->
 
 
         </form>
